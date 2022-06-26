@@ -1,0 +1,167 @@
+@PART[*]:HAS[#TechRequired[unlockParts]]:FINAL
+{
+	@MODULE[kOSProcessor]{
+		%diskSpace = 3000
+		%diskSpaceCostFactor = 1
+		%diskSpaceMassFactor = 0.00001
+		%ECPerInstruction = 0.00006
+	}
+}
+
+@PART[*]:HAS[#TechRequired[postWarAvionics]]:FINAL
+{
+	@MODULE[kOSProcessor]{
+		%diskSpace = 4000
+		%diskSpaceCostFactor = 1
+		%diskSpaceMassFactor = 0.00001
+		%ECPerInstruction = 0.00003
+	}
+}
+
+@PART[*]:HAS[#TechRequired[avionicsPrototypes]]:FINAL
+{
+	@MODULE[kOSProcessor]{
+		%diskSpace = 5000
+		%diskSpaceCostFactor = 0.5
+		%diskSpaceMassFactor = 0.000001
+		%ECPerInstruction = 0.00001
+	}
+}
+@PART[*]:HAS[#TechRequired[earlyAvionics]]:FINAL
+{
+	@MODULE[kOSProcessor]{
+		%diskSpace = 7500
+		%diskSpaceCostFactor = 0.25
+		%diskSpaceMassFactor = 0.0000005
+		%ECPerInstruction = 0.0000075
+	}
+}
+
+@PART[*]:HAS[#TechRequired[basicAvionics]]:FINAL
+{
+	@MODULE[kOSProcessor]{
+		%diskSpace = 10000
+		%diskSpaceCostFactor = 0.1
+		%diskSpaceMassFactor = 0.0000001
+		%ECPerInstruction = 0.000002
+	}
+}
+
+@PART[*]:HAS[#TechRequired[interplanetaryProbes]]:FINAL
+{
+	@MODULE[kOSProcessor]{
+		%diskSpace = 12500
+		%diskSpaceCostFactor = 0.1
+		%diskSpaceMassFactor = 0.00000008
+		%ECPerInstruction = 0.00000075
+	}
+}
+@PART[*]:HAS[#TechRequired[improvedAvionics]]:FINAL
+{
+	@MODULE[kOSProcessor]{
+		%diskSpace = 15000
+		%diskSpaceCostFactor = 0.05
+		%diskSpaceMassFactor = 0.00000004
+		%ECPerInstruction = 0.0000005
+	}
+}
+
+@PART[*]:HAS[#TechRequired[matureAvionics]]:FINAL
+{
+	@MODULE[kOSProcessor]{
+		%diskSpace = 20000
+		%diskSpaceCostFactor = 0.025
+		%diskSpaceMassFactor = 0.00000002
+		%ECPerInstruction = 0.0000002
+	}
+}
+
+@PART[*]:HAS[#TechRequired[largeScaleAvionics]]:FINAL
+{
+	@MODULE[kOSProcessor]{
+		%diskSpace = 25000
+		%diskSpaceCostFactor = 0.015
+		%diskSpaceMassFactor = 0.000000002
+		%ECPerInstruction = 0.0000001
+	}
+}
+
+@PART[*]:HAS[#TechRequired[advancedAvionics]]:FINAL
+{
+	@MODULE[kOSProcessor]{
+		%diskSpace = 50000
+		%diskSpaceCostFactor = 0.001
+		%diskSpaceMassFactor = 0.000000001
+		%ECPerInstruction = 0.000000025
+	}
+}
+
+@PART[*]:HAS[#TechRequired[nextGenAvionics]]:FINAL
+{
+	@MODULE[kOSProcessor]{
+		%diskSpace = 75000
+		%diskSpaceCostFactor = 0.001
+		%diskSpaceMassFactor = 0.000000001
+		%ECPerInstruction = 0.00000001
+	}
+}
+
+@PART[*]:HAS[#TechRequired[longTermAvionics]]:FINAL
+{
+	@MODULE[kOSProcessor]{
+		%diskSpace = 75000
+		%diskSpaceCostFactor = 0.0005
+		%diskSpaceMassFactor = 0.0000000005
+		%ECPerInstruction = 0.00000001
+	}
+}
+@PART[*]:HAS[#TechRequired[internationalAvionics]]:FINAL
+{
+	@MODULE[kOSProcessor]{
+		%diskSpace = 150000
+		%diskSpaceCostFactor = 0.0001
+		%diskSpaceMassFactor = 0
+		%ECPerInstruction = 0.00000001
+	}
+}
+
+@PART[*]:HAS[#TechRequired[avionicsNF]]:FINAL
+{
+	@MODULE[kOSProcessor]{
+		%diskSpace = 500000
+		%diskSpaceCostFactor = 0
+		%diskSpaceMassFactor = 0
+		%ECPerInstruction = 0
+	}
+}
+
+@PART[*]:HAS[#TechRequired[colonization2051Avionics]]:FINAL
+{
+	@MODULE[kOSProcessor]{
+		%diskSpace = 500000
+		%diskSpaceCostFactor = 0
+		%diskSpaceMassFactor = 0
+		%ECPerInstruction = 0
+	}
+}
+@PART[*]:HAS[#TechRequired[colonization2100Avionics]]:FINAL
+{
+	@MODULE[kOSProcessor]{
+		%diskSpace = 500000
+		%diskSpaceCostFactor = 0
+		%diskSpaceMassFactor = 0
+		%ECPerInstruction = 0
+	}
+}
+@PART[*]:HAS[#TechRequired[colonization2150Avionics]]:FINAL
+{
+	@MODULE[kOSProcessor]{
+		%diskSpace = 500000
+		%diskSpaceCostFactor = 0
+		%diskSpaceMassFactor = 0
+		%ECPerInstruction = 0
+	}
+}
+
+
+

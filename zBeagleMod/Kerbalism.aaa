@@ -1,0 +1,12 @@
+@PART[SXTBuzzard_4288601542]:FINAL
+{
+    %MODULE[ProcessController]
+    {
+	%isEnabled = True
+    }
+}
+
+
+
+
+
